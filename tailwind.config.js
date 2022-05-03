@@ -1,0 +1,15 @@
+const { Brandy } = require("phosphor-react");
+
+module.exports = {
+  content: ["./src/**/*.tsx"],
+  theme: {
+    extend: {
+      colors: {
+        brand: {
+          500: "#8257E5",
+        },
+      },
+    },
+  },
+  plugins: [],
+};
